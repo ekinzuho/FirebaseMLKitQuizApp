@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6276B9A02B40C8BC009B960A /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B99F2B40C8BC009B960A /* CustomButtons.swift */; };
+		6276B9A22B40C8CF009B960A /* CustomLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9A12B40C8CF009B960A /* CustomLabels.swift */; };
+		6276B9A42B40C8E1009B960A /* CustomStackViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9A32B40C8E1009B960A /* CustomStackViews.swift */; };
+		6276B9A62B40C8F1009B960A /* CustomTableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9A52B40C8F1009B960A /* CustomTableViews.swift */; };
+		6276B9A82B40C90F009B960A /* QuestionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9A72B40C90F009B960A /* QuestionSet.swift */; };
+		6276B9AA2B40C91A009B960A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9A92B40C91A009B960A /* Question.swift */; };
+		6276B9AC2B40C92A009B960A /* AllScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9AB2B40C92A009B960A /* AllScores.swift */; };
+		6276B9AE2B40C935009B960A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9AD2B40C935009B960A /* Score.swift */; };
+		6276B9B02B40C944009B960A /* SaveScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9AF2B40C944009B960A /* SaveScore.swift */; };
+		6276B9B22B40C94B009B960A /* GetScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9B12B40C94B009B960A /* GetScores.swift */; };
+		6276B9B42B40C971009B960A /* ScoreboardTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9B32B40C971009B960A /* ScoreboardTableCell.swift */; };
+		6276B9B82B4144AB009B960A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6276B9B72B4144AB009B960A /* GoogleService-Info.plist */; };
+		6276B9BA2B41651C009B960A /* yedekplayviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6276B9B92B41651C009B960A /* yedekplayviewcontroller.swift */; };
+		62D7454C2B40B90E009AECF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D7454B2B40B90E009AECF0 /* AppDelegate.swift */; };
+		62D7454E2B40B90E009AECF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D7454D2B40B90E009AECF0 /* SceneDelegate.swift */; };
+		62D745502B40B90E009AECF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D7454F2B40B90E009AECF0 /* ViewController.swift */; };
+		62D745562B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62D745542B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodeld */; };
+		62D745582B40B90F009AECF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D745572B40B90F009AECF0 /* Assets.xcassets */; };
+		62D7455B2B40B90F009AECF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D745592B40B90F009AECF0 /* LaunchScreen.storyboard */; };
+		62D745642B40BAB5009AECF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D745632B40BAB5009AECF0 /* HomeViewController.swift */; };
+		62D745662B40BAE7009AECF0 /* ChooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D745652B40BAE7009AECF0 /* ChooseCategoryViewController.swift */; };
+		62D745682B40BB02009AECF0 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D745672B40BB02009AECF0 /* PlayViewController.swift */; };
+		62D7456A2B40BB1E009AECF0 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D745692B40BB1E009AECF0 /* ScoreboardViewController.swift */; };
+		62D7456E2B40BB57009AECF0 /* AllQuestionsFromAllCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 62D7456D2B40BB57009AECF0 /* AllQuestionsFromAllCategories.json */; };
+		62DE60C12B41C66600F4470A /* DeleteScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DE60C02B41C66600F4470A /* DeleteScores.swift */; };
+		DFB21D6B98B9B88A34F37BC5 /* Pods_FirebaseMLKitQuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9347C6DE255CDD93CEEDEFF /* Pods_FirebaseMLKitQuizApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6276B99F2B40C8BC009B960A /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		6276B9A12B40C8CF009B960A /* CustomLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabels.swift; sourceTree = "<group>"; };
+		6276B9A32B40C8E1009B960A /* CustomStackViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackViews.swift; sourceTree = "<group>"; };
+		6276B9A52B40C8F1009B960A /* CustomTableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViews.swift; sourceTree = "<group>"; };
+		6276B9A72B40C90F009B960A /* QuestionSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSet.swift; sourceTree = "<group>"; };
+		6276B9A92B40C91A009B960A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6276B9AB2B40C92A009B960A /* AllScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllScores.swift; sourceTree = "<group>"; };
+		6276B9AD2B40C935009B960A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		6276B9AF2B40C944009B960A /* SaveScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveScore.swift; sourceTree = "<group>"; };
+		6276B9B12B40C94B009B960A /* GetScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetScores.swift; sourceTree = "<group>"; };
+		6276B9B32B40C971009B960A /* ScoreboardTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardTableCell.swift; sourceTree = "<group>"; };
+		6276B9B72B4144AB009B960A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6276B9B92B41651C009B960A /* yedekplayviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yedekplayviewcontroller.swift; sourceTree = "<group>"; };
+		62D745482B40B90E009AECF0 /* FirebaseMLKitQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseMLKitQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D7454B2B40B90E009AECF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D7454D2B40B90E009AECF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62D7454F2B40B90E009AECF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62D745552B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirebaseMLKitQuizApp.xcdatamodel; sourceTree = "<group>"; };
+		62D745572B40B90F009AECF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D7455A2B40B90F009AECF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D7455C2B40B90F009AECF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D745632B40BAB5009AECF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		62D745652B40BAE7009AECF0 /* ChooseCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCategoryViewController.swift; sourceTree = "<group>"; };
+		62D745672B40BB02009AECF0 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		62D745692B40BB1E009AECF0 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
+		62D7456D2B40BB57009AECF0 /* AllQuestionsFromAllCategories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllQuestionsFromAllCategories.json; sourceTree = "<group>"; };
+		62DE60C02B41C66600F4470A /* DeleteScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScores.swift; sourceTree = "<group>"; };
+		71E99AC69FCC6AFEA3830452 /* Pods-FirebaseMLKitQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMLKitQuizApp.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B9347C6DE255CDD93CEEDEFF /* Pods_FirebaseMLKitQuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseMLKitQuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E3E99D09C405DC6DA8981A /* Pods-FirebaseMLKitQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseMLKitQuizApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D745452B40B90E009AECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB21D6B98B9B88A34F37BC5 /* Pods_FirebaseMLKitQuizApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1572EC3F6A35382DF3DEC921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9347C6DE255CDD93CEEDEFF /* Pods_FirebaseMLKitQuizApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601F3F552525763181197A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E99AC69FCC6AFEA3830452 /* Pods-FirebaseMLKitQuizApp.debug.xcconfig */,
+				C9E3E99D09C405DC6DA8981A /* Pods-FirebaseMLKitQuizApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6276B99B2B40C86F009B960A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6276B99E2B40C8A9009B960A /* CustomUIElements */,
+				6276B99D2B40C89F009B960A /* ScoreboardModels */,
+				6276B99C2B40C897009B960A /* QuestionModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6276B99C2B40C897009B960A /* QuestionModels */ = {
+			isa = PBXGroup;
+			children = (
+				6276B9A72B40C90F009B960A /* QuestionSet.swift */,
+				6276B9A92B40C91A009B960A /* Question.swift */,
+			);
+			path = QuestionModels;
+			sourceTree = "<group>";
+		};
+		6276B99D2B40C89F009B960A /* ScoreboardModels */ = {
+			isa = PBXGroup;
+			children = (
+				6276B9AB2B40C92A009B960A /* AllScores.swift */,
+				6276B9AD2B40C935009B960A /* Score.swift */,
+				6276B9AF2B40C944009B960A /* SaveScore.swift */,
+				6276B9B12B40C94B009B960A /* GetScores.swift */,
+				6276B9B32B40C971009B960A /* ScoreboardTableCell.swift */,
+				62DE60C02B41C66600F4470A /* DeleteScores.swift */,
+			);
+			path = ScoreboardModels;
+			sourceTree = "<group>";
+		};
+		6276B99E2B40C8A9009B960A /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				6276B99F2B40C8BC009B960A /* CustomButtons.swift */,
+				6276B9A12B40C8CF009B960A /* CustomLabels.swift */,
+				6276B9A32B40C8E1009B960A /* CustomStackViews.swift */,
+				6276B9A52B40C8F1009B960A /* CustomTableViews.swift */,
+			);
+			path = CustomUIElements;
+			sourceTree = "<group>";
+		};
+		62D7453F2B40B90E009AECF0 = {
+			isa = PBXGroup;
+			children = (
+				62D7454A2B40B90E009AECF0 /* FirebaseMLKitQuizApp */,
+				62D745492B40B90E009AECF0 /* Products */,
+				601F3F552525763181197A23 /* Pods */,
+				1572EC3F6A35382DF3DEC921 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62D745492B40B90E009AECF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D745482B40B90E009AECF0 /* FirebaseMLKitQuizApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D7454A2B40B90E009AECF0 /* FirebaseMLKitQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				6276B99B2B40C86F009B960A /* Models */,
+				62D7456B2B40BB2A009AECF0 /* Questions */,
+				62D745622B40BA8C009AECF0 /* ViewControllers */,
+				62D7454B2B40B90E009AECF0 /* AppDelegate.swift */,
+				62D7454D2B40B90E009AECF0 /* SceneDelegate.swift */,
+				62D7454F2B40B90E009AECF0 /* ViewController.swift */,
+				62D745572B40B90F009AECF0 /* Assets.xcassets */,
+				62D745592B40B90F009AECF0 /* LaunchScreen.storyboard */,
+				62D7455C2B40B90F009AECF0 /* Info.plist */,
+				62D745542B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodeld */,
+				6276B9B72B4144AB009B960A /* GoogleService-Info.plist */,
+			);
+			path = FirebaseMLKitQuizApp;
+			sourceTree = "<group>";
+		};
+		62D745622B40BA8C009AECF0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62D745632B40BAB5009AECF0 /* HomeViewController.swift */,
+				62D745652B40BAE7009AECF0 /* ChooseCategoryViewController.swift */,
+				62D745672B40BB02009AECF0 /* PlayViewController.swift */,
+				62D745692B40BB1E009AECF0 /* ScoreboardViewController.swift */,
+				6276B9B92B41651C009B960A /* yedekplayviewcontroller.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		62D7456B2B40BB2A009AECF0 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				62D7456D2B40BB57009AECF0 /* AllQuestionsFromAllCategories.json */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D745472B40B90E009AECF0 /* FirebaseMLKitQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D7455F2B40B90F009AECF0 /* Build configuration list for PBXNativeTarget "FirebaseMLKitQuizApp" */;
+			buildPhases = (
+				35F71ECD4797CA3199B32E07 /* [CP] Check Pods Manifest.lock */,
+				62D745442B40B90E009AECF0 /* Sources */,
+				62D745452B40B90E009AECF0 /* Frameworks */,
+				62D745462B40B90E009AECF0 /* Resources */,
+				9FFB608FA763FD15EB6522FE /* [CP] Embed Pods Frameworks */,
+				7AB6F600EC5E65452FC90BAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseMLKitQuizApp;
+			productName = FirebaseMLKitQuizApp;
+			productReference = 62D745482B40B90E009AECF0 /* FirebaseMLKitQuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D745402B40B90E009AECF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					62D745472B40B90E009AECF0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 62D745432B40B90E009AECF0 /* Build configuration list for PBXProject "FirebaseMLKitQuizApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D7453F2B40B90E009AECF0;
+			productRefGroup = 62D745492B40B90E009AECF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D745472B40B90E009AECF0 /* FirebaseMLKitQuizApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D745462B40B90E009AECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D7456E2B40BB57009AECF0 /* AllQuestionsFromAllCategories.json in Resources */,
+				6276B9B82B4144AB009B960A /* GoogleService-Info.plist in Resources */,
+				62D7455B2B40B90F009AECF0 /* LaunchScreen.storyboard in Resources */,
+				62D745582B40B90F009AECF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F71ECD4797CA3199B32E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseMLKitQuizApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB6F600EC5E65452FC90BAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFB608FA763FD15EB6522FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseMLKitQuizApp/Pods-FirebaseMLKitQuizApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D745442B40B90E009AECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D745642B40BAB5009AECF0 /* HomeViewController.swift in Sources */,
+				6276B9B42B40C971009B960A /* ScoreboardTableCell.swift in Sources */,
+				6276B9B22B40C94B009B960A /* GetScores.swift in Sources */,
+				62D745502B40B90E009AECF0 /* ViewController.swift in Sources */,
+				6276B9AE2B40C935009B960A /* Score.swift in Sources */,
+				6276B9A82B40C90F009B960A /* QuestionSet.swift in Sources */,
+				62D7454C2B40B90E009AECF0 /* AppDelegate.swift in Sources */,
+				62DE60C12B41C66600F4470A /* DeleteScores.swift in Sources */,
+				62D745662B40BAE7009AECF0 /* ChooseCategoryViewController.swift in Sources */,
+				6276B9AA2B40C91A009B960A /* Question.swift in Sources */,
+				62D7456A2B40BB1E009AECF0 /* ScoreboardViewController.swift in Sources */,
+				62D7454E2B40B90E009AECF0 /* SceneDelegate.swift in Sources */,
+				6276B9BA2B41651C009B960A /* yedekplayviewcontroller.swift in Sources */,
+				6276B9A62B40C8F1009B960A /* CustomTableViews.swift in Sources */,
+				6276B9A42B40C8E1009B960A /* CustomStackViews.swift in Sources */,
+				62D745682B40BB02009AECF0 /* PlayViewController.swift in Sources */,
+				6276B9A22B40C8CF009B960A /* CustomLabels.swift in Sources */,
+				6276B9A02B40C8BC009B960A /* CustomButtons.swift in Sources */,
+				6276B9AC2B40C92A009B960A /* AllScores.swift in Sources */,
+				6276B9B02B40C944009B960A /* SaveScore.swift in Sources */,
+				62D745562B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62D745592B40B90F009AECF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D7455A2B40B90F009AECF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D7455D2B40B90F009AECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D7455E2B40B90F009AECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D745602B40B90F009AECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E99AC69FCC6AFEA3830452 /* Pods-FirebaseMLKitQuizApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6FG5K63RA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseMLKitQuizApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekinyasar.FirebaseMLKitQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D745612B40B90F009AECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E3E99D09C405DC6DA8981A /* Pods-FirebaseMLKitQuizApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6FG5K63RA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseMLKitQuizApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekinyasar.FirebaseMLKitQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D745432B40B90E009AECF0 /* Build configuration list for PBXProject "FirebaseMLKitQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D7455D2B40B90F009AECF0 /* Debug */,
+				62D7455E2B40B90F009AECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D7455F2B40B90F009AECF0 /* Build configuration list for PBXNativeTarget "FirebaseMLKitQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D745602B40B90F009AECF0 /* Debug */,
+				62D745612B40B90F009AECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62D745542B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62D745552B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodel */,
+			);
+			currentVersion = 62D745552B40B90E009AECF0 /* FirebaseMLKitQuizApp.xcdatamodel */;
+			path = FirebaseMLKitQuizApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 62D745402B40B90E009AECF0 /* Project object */;
+}
